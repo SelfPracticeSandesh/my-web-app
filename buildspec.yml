@@ -5,7 +5,8 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+      - mv target/my-web-app.war my-web-app.war
 artifacts:
   files:
-    - target/my-web-app.war
-  discard-paths: yes
+    - my-web-app.war
+    - .ebextensions/**/*
