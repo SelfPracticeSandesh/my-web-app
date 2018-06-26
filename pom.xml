@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>my-web-app</finalName>
+    <finalName>sandesh-app</finalName>
   </build>
 </project>
